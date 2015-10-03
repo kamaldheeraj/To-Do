@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../To-Do/ListEntity.swift">
+   </FileRef>
+   <FileRef
       location = "self:To-Do.xcodeproj">
    </FileRef>
 </Workspace>

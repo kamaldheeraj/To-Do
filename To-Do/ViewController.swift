@@ -21,5 +21,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func cancelClicked(sender: AnyObject) {
+        dismissVC()
+    }
+    @IBAction func saveClicked(sender: AnyObject) {
+        dismissVC()
+    }
+    func dismissVC(){
+        navigationController?.popViewControllerAnimated(true)
+    }
 }
 

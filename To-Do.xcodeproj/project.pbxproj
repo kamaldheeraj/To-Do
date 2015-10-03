@@ -14,6 +14,7 @@
 		CF0E9C191BC02D39008E7C3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0E9C181BC02D39008E7C3C /* Images.xcassets */; };
 		CF0E9C1C1BC02D39008E7C3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0E9C1A1BC02D39008E7C3C /* LaunchScreen.xib */; };
 		CF0E9C281BC02D39008E7C3C /* To_DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E9C271BC02D39008E7C3C /* To_DoTests.swift */; };
+		CF0E9C361BC02E45008E7C3C /* ListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E9C351BC02E45008E7C3C /* ListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CF0E9C211BC02D39008E7C3C /* To-DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-DoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0E9C261BC02D39008E7C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF0E9C271BC02D39008E7C3C /* To_DoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_DoTests.swift; sourceTree = "<group>"; };
+		CF0E9C351BC02E45008E7C3C /* ListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CF0E9C0B1BC02D39008E7C3C /* To-Do */ = {
 			isa = PBXGroup;
 			children = (
+				CF0E9C351BC02E45008E7C3C /* ListEntity.swift */,
 				CF0E9C0E1BC02D39008E7C3C /* AppDelegate.swift */,
 				CF0E9C131BC02D39008E7C3C /* ViewController.swift */,
 				CF0E9C151BC02D39008E7C3C /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0E9C361BC02E45008E7C3C /* ListEntity.swift in Sources */,
 				CF0E9C141BC02D39008E7C3C /* ViewController.swift in Sources */,
 				CF0E9C0F1BC02D39008E7C3C /* AppDelegate.swift in Sources */,
 				CF0E9C121BC02D39008E7C3C /* To_Do.xcdatamodeld in Sources */,
